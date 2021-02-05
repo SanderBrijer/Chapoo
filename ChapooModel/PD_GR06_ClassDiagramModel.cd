@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChapooModel.BesteldeItem">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAIAABAAAEQAQggAAAAAAAAAAAAA=</HashCode>
+      <FileName>BesteldeItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bestelling" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChapooModel.Bestelling">
+    <Position X="10.75" Y="4.25" Width="1.5" />
+    <AssociationLine Name="Medewerker" Type="ChapooModel.Medewerker" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="5.883" />
+        <Point X="10.5" Y="5.883" />
+        <Point X="10.5" Y="6.95" />
+        <Point X="9.5" Y="6.95" />
+        <Point X="9.5" Y="6.507" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAKAAAABAIAAAAAAAAAQAAAAAASAAAAAAAA=</HashCode>
+      <FileName>Bestelling.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Medewerker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChapooModel.Bon">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAAAAAAAKAAAgAAAEAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooModel.Klant">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Klant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooModel.Log">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAgAAAAAAAAAgAAAAAAAAAAABAAAAIAAAAAA=</HashCode>
+      <FileName>Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooModel.Medewerker">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAQAAgACAIAQAAAAAAAAAAEAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Medewerker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Functie" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChapooModel.Menu">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooModel.MenuItem">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAQAAJAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooModel.Reservering">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAABAAAAAAEAAAAAAAAAACAAACAAAIA=</HashCode>
+      <FileName>Reservering.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Klant" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChapooModel.Tafel">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAABAAAAAAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tafel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChapooModel.Voorraad">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABEAAAAABAAAAQAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Voorraad.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MenuItem" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="ChapooModel.Functie">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAEAABAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Functie.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChapooModel.StatusTafel">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StatusTafel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

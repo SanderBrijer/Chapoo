@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChapooDAL.Base">
+    <Position X="12.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAgAAACABAAAQQAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="adapter" />
+      <Field Name="conn" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChapooDAL.BesteldeItem_DAO">
+    <Position X="12.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAAQBAAAAABAAAAAAACAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>BesteldeItem_DAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooDAL.Bestelling_DAO">
+    <Position X="8" Y="7.25" Width="1.5" />
+    <AssociationLine Name="tafelDOA" Type="ChapooDAL.Tafel_DAO" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="8.911" />
+        <Point X="6.753" Y="8.911" />
+        <Point X="6.753" Y="16.271" />
+        <Point X="15.062" Y="16.271" />
+        <Point X="15.062" Y="15.252" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="besteldeItemDOA" Type="ChapooDAL.BesteldeItem_DAO" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="9.273" />
+        <Point X="6.943" Y="9.273" />
+        <Point X="6.943" Y="16.085" />
+        <Point X="13.25" Y="16.085" />
+        <Point X="13.25" Y="15.637" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="medewerkerDOA" Type="ChapooDAL.Medewerker_DAO" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.688" Y="7.25" />
+        <Point X="8.688" Y="6.875" />
+        <Point X="9.875" Y="6.875" />
+        <Point X="9.875" Y="12.875" />
+        <Point X="18.375" Y="12.875" />
+        <Point X="18.375" Y="15.627" />
+        <Point X="17.25" Y="15.627" />
+        <Point X="17.25" Y="15.252" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAUAAAABEAAAAAAQAAAAAAAAEABAAACCGAI=</HashCode>
+      <FileName>Bestelling_DAO.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="tafelDOA" />
+      <Field Name="besteldeItemDOA" />
+      <Field Name="medewerkerDOA" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChapooDAL.Bon_DAO">
+    <Position X="14.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bon_DAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooDAL.Klant_DAO">
+    <Position X="8" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Klant_DAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooDAL.Medewerker_DAO">
+    <Position X="16.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAQAAAAAAAEACAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Medewerker_DAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooDAL.Menu_DAO">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu_DAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooDAL.MenuItem_DAO">
+    <Position X="17" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAQAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>MenuItem_DAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooDAL.Reservering_DAO">
+    <Position X="10.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reservering_DAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooDAL.Tafel_DAO">
+    <Position X="14.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAIAAAACgAAA=</HashCode>
+      <FileName>Tafel_DAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChapooDAL.Voorraad_DAO">
+    <Position X="12.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAQAAAAAAAEAAAABAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Voorraad_DAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Data.SqlClient.SqlDataAdapter" Collapsed="true">
+    <Position X="16.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Data.SqlClient.SqlConnection" Collapsed="true">
+    <Position X="16.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

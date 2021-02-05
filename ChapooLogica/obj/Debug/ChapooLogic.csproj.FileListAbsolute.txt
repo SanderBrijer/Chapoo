@@ -1,0 +1,5 @@
+C:\Users\sbrij\Desktop\Chapoo\ChapooLogic\bin\Debug\ChapooLogic.dll
+C:\Users\sbrij\Desktop\Chapoo\ChapooLogic\bin\Debug\ChapooLogic.pdb
+C:\Users\sbrij\Desktop\Chapoo\ChapooLogic\obj\Debug\ChapooLogic.csproj.CoreCompileInputs.cache
+C:\Users\sbrij\Desktop\Chapoo\ChapooLogic\obj\Debug\ChapooLogic.dll
+C:\Users\sbrij\Desktop\Chapoo\ChapooLogic\obj\Debug\ChapooLogic.pdb
